@@ -1,0 +1,23 @@
+{
+  "port": 80,
+  "mongoose": {
+    "uri": "mongodb://localhost/boilerplate",
+    "options": {
+      "useMongoClient": true,
+      "keepAlive": 300000,
+      "connectTimeoutMS": 30000
+    }
+  },
+  "session": {
+    "secret": "MySecretCombination",
+    "key": "sid",
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "maxAge": 2592000000
+    }
+  },
+  "online": 1,
+  "email-login": "dollaween-temp@yandex.ru",
+  "email-pass": "m0ve_It"
+}
