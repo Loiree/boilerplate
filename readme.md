@@ -1,1 +1,6 @@
 # Boilerplate
+
+Install:
+```
+npm i
+```
